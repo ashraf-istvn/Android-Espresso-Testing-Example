@@ -8,7 +8,9 @@ Add bellow dependencie on your build.gradle(app) file
 
 Run app for Testing as as like bellow image
 
-###Screenshot </br> </br>
+### Screenshot
+
+</br> </br>
 <a href="https://imgur.com/GR6iZCQ"><img src="https://i.imgur.com/GR6iZCQ.png" title="source: imgur.com" /></a>
 
 
