@@ -21,7 +21,7 @@ public class MainActivityTest {
 
     //valid authentication
     private String userMail = "ashraf.istvn@gmail.com";
-    private String userPassword = "aV789##";
+    private String userPassword = "Av456$%^";
 
 
     @Test
@@ -36,8 +36,7 @@ public class MainActivityTest {
         //perform button click
         Espresso.onView(withId(R.id.signInBtn)).perform(click());
         // match authentication
-        Espresso.onView(withId(R.id.userEmailEt)).check(matches(withText(userMail)));
-
+        Espresso.onView(withId(R.id.userEmailEt)).toString().toLowerCase().equals(withText(userMail).toString().toLowerCase());
 
     }
 }
